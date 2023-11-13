@@ -1,0 +1,756 @@
+{
+    "has_more": false,
+    "next_cursor": null,
+    "object": "list",
+    "page_or_database": {},
+    "request_id": "d04a6f3a-4c21-4ae9-a775-c5a5277de0df",
+    "results": [
+        {
+            "archived": false,
+            "cover": null,
+            "created_by": {
+                "id": "cf11e740-e08b-48ca-92c8-6a192952e09d",
+                "object": "user"
+            },
+            "created_time": "2023-11-06T21:28:00.000Z",
+            "icon": null,
+            "id": "5c933728-5f40-4e08-b047-fbc6881778c3",
+            "last_edited_by": {
+                "id": "cf11e740-e08b-48ca-92c8-6a192952e09d",
+                "object": "user"
+            },
+            "last_edited_time": "2023-11-07T20:51:00.000Z",
+            "object": "page",
+            "parent": {
+                "database_id": "2be2880f-190f-4fe2-9db9-1565a1658108",
+                "type": "database_id"
+            },
+            "properties": {
+                "Cover": {
+                    "files": [
+                        {
+                            "file": {
+                                "expiry_time": "2023-11-08T03:46:18.362Z",
+                                "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/e3862674-3e6a-4335-bbd6-4075d1eb1122/Home.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20231108%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20231108T024618Z&X-Amz-Expires=3600&X-Amz-Signature=80eccfb4cd47b1a03388564dce3246b85c05d1004cc907f515bffbab61373f22&X-Amz-SignedHeaders=host&x-id=GetObject"
+                            },
+                            "name": "Home.png",
+                            "type": "file"
+                        }
+                    ],
+                    "id": "%5EQ%40O",
+                    "type": "files"
+                },
+                "Date": {
+                    "date": null,
+                    "id": "Ni%5D%5D",
+                    "type": "date"
+                },
+                "Description": {
+                    "id": "scKi",
+                    "rich_text": [],
+                    "type": "rich_text"
+                },
+                "Name": {
+                    "id": "title",
+                    "title": [
+                        {
+                            "annotations": {
+                                "bold": false,
+                                "code": false,
+                                "color": "brown",
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false
+                            },
+                            "href": null,
+                            "plain_text": "RockTicket App",
+                            "text": {
+                                "content": "RockTicket App",
+                                "link": null
+                            },
+                            "type": "text"
+                        }
+                    ],
+                    "type": "title"
+                },
+                "Slug": {
+                    "id": "Mc%7D%3A",
+                    "rich_text": [
+                        {
+                            "annotations": {
+                                "bold": false,
+                                "code": false,
+                                "color": "default",
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false
+                            },
+                            "href": null,
+                            "plain_text": "rockTicked-app",
+                            "text": {
+                                "content": "rockTicked-app",
+                                "link": null
+                            },
+                            "type": "text"
+                        }
+                    ],
+                    "type": "rich_text"
+                },
+                "Status": {
+                    "id": "abbL",
+                    "select": null,
+                    "type": "select"
+                },
+                "TitleProject": {
+                    "id": "NQRN",
+                    "rich_text": [
+                        {
+                            "annotations": {
+                                "bold": false,
+                                "code": false,
+                                "color": "default",
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false
+                            },
+                            "href": null,
+                            "plain_text": "RockTicket app                            ",
+                            "text": {
+                                "content": "RockTicket app                            ",
+                                "link": null
+                            },
+                            "type": "text"
+                        }
+                    ],
+                    "type": "rich_text"
+                },
+                "Type": {
+                    "id": "wMWk",
+                    "rich_text": [
+                        {
+                            "annotations": {
+                                "bold": false,
+                                "code": false,
+                                "color": "default",
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false
+                            },
+                            "href": null,
+                            "plain_text": "UX/UI Case Study",
+                            "text": {
+                                "content": "UX/UI Case Study",
+                                "link": null
+                            },
+                            "type": "text"
+                        }
+                    ],
+                    "type": "rich_text"
+                }
+            },
+            "public_url": null,
+            "url": "https://www.notion.so/RockTicket-App-5c9337285f404e08b047fbc6881778c3"
+        },
+        {
+            "archived": false,
+            "cover": null,
+            "created_by": {
+                "id": "cf11e740-e08b-48ca-92c8-6a192952e09d",
+                "object": "user"
+            },
+            "created_time": "2023-11-06T21:28:00.000Z",
+            "icon": null,
+            "id": "b740ffc8-ac2f-42e9-ad66-86f97fd1c76a",
+            "last_edited_by": {
+                "id": "cf11e740-e08b-48ca-92c8-6a192952e09d",
+                "object": "user"
+            },
+            "last_edited_time": "2023-11-07T20:52:00.000Z",
+            "object": "page",
+            "parent": {
+                "database_id": "2be2880f-190f-4fe2-9db9-1565a1658108",
+                "type": "database_id"
+            },
+            "properties": {
+                "Cover": {
+                    "files": [
+                        {
+                            "file": {
+                                "expiry_time": "2023-11-08T03:46:18.357Z",
+                                "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/9da76ef5-4bc0-404e-9700-92e39c0a129d/3b2810ae-9bdc-4539-8d5e-e19d1b967afa/Desktop_-_5.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20231108%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20231108T024618Z&X-Amz-Expires=3600&X-Amz-Signature=70d399d8f1d0f7c301e23fe4b69184a358889fc9cd655769762e4e1b0e8ed1d6&X-Amz-SignedHeaders=host&x-id=GetObject"
+                            },
+                            "name": "Desktop - 5.png",
+                            "type": "file"
+                        },
+                        {
+                            "file": {
+                                "expiry_time": "2023-11-08T03:46:18.366Z",
+                                "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/9da76ef5-4bc0-404e-9700-92e39c0a129d/ff49da4b-7d0a-4d51-bd81-a6f1521b407f/Desktop_-_5.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20231108%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20231108T024618Z&X-Amz-Expires=3600&X-Amz-Signature=19e37279622413c065ec5e225abb92075a8e0d5a45261c1ed4ca12adf7c0b947&X-Amz-SignedHeaders=host&x-id=GetObject"
+                            },
+                            "name": "Desktop - 5.png",
+                            "type": "file"
+                        },
+                        {
+                            "file": {
+                                "expiry_time": "2023-11-08T03:46:18.371Z",
+                                "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/9da76ef5-4bc0-404e-9700-92e39c0a129d/0b30ed02-3b7d-4a4c-9be6-855502ffc058/Desktop_-_5.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20231108%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20231108T024618Z&X-Amz-Expires=3600&X-Amz-Signature=3058f8bbc0d20b56d85c5c4fcf7afff4a10df2329044777b5afcb2f50bc2a116&X-Amz-SignedHeaders=host&x-id=GetObject"
+                            },
+                            "name": "Desktop - 5.png",
+                            "type": "file"
+                        }
+                    ],
+                    "id": "%5EQ%40O",
+                    "type": "files"
+                },
+                "Date": {
+                    "date": null,
+                    "id": "Ni%5D%5D",
+                    "type": "date"
+                },
+                "Description": {
+                    "id": "scKi",
+                    "rich_text": [],
+                    "type": "rich_text"
+                },
+                "Name": {
+                    "id": "title",
+                    "title": [
+                        {
+                            "annotations": {
+                                "bold": false,
+                                "code": false,
+                                "color": "default",
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false
+                            },
+                            "href": null,
+                            "plain_text": "RockTicket app Website",
+                            "text": {
+                                "content": "RockTicket app Website",
+                                "link": null
+                            },
+                            "type": "text"
+                        }
+                    ],
+                    "type": "title"
+                },
+                "Slug": {
+                    "id": "Mc%7D%3A",
+                    "rich_text": [
+                        {
+                            "annotations": {
+                                "bold": false,
+                                "code": false,
+                                "color": "default",
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false
+                            },
+                            "href": null,
+                            "plain_text": "rockTicked-app-web",
+                            "text": {
+                                "content": "rockTicked-app-web",
+                                "link": null
+                            },
+                            "type": "text"
+                        }
+                    ],
+                    "type": "rich_text"
+                },
+                "Status": {
+                    "id": "abbL",
+                    "select": null,
+                    "type": "select"
+                },
+                "TitleProject": {
+                    "id": "NQRN",
+                    "rich_text": [
+                        {
+                            "annotations": {
+                                "bold": false,
+                                "code": false,
+                                "color": "default",
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false
+                            },
+                            "href": null,
+                            "plain_text": "RockTicket app",
+                            "text": {
+                                "content": "RockTicket app",
+                                "link": null
+                            },
+                            "type": "text"
+                        }
+                    ],
+                    "type": "rich_text"
+                },
+                "Type": {
+                    "id": "wMWk",
+                    "rich_text": [
+                        {
+                            "annotations": {
+                                "bold": false,
+                                "code": false,
+                                "color": "default",
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false
+                            },
+                            "href": null,
+                            "plain_text": "Website",
+                            "text": {
+                                "content": "Website",
+                                "link": null
+                            },
+                            "type": "text"
+                        }
+                    ],
+                    "type": "rich_text"
+                }
+            },
+            "public_url": null,
+            "url": "https://www.notion.so/RockTicket-app-Website-b740ffc8ac2f42e9ad6686f97fd1c76a"
+        },
+        {
+            "archived": false,
+            "cover": null,
+            "created_by": {
+                "id": "cf11e740-e08b-48ca-92c8-6a192952e09d",
+                "object": "user"
+            },
+            "created_time": "2023-11-06T21:28:00.000Z",
+            "icon": null,
+            "id": "e05c45a6-2840-41b7-ab12-fe22ec48c55b",
+            "last_edited_by": {
+                "id": "cf11e740-e08b-48ca-92c8-6a192952e09d",
+                "object": "user"
+            },
+            "last_edited_time": "2023-11-07T20:52:00.000Z",
+            "object": "page",
+            "parent": {
+                "database_id": "2be2880f-190f-4fe2-9db9-1565a1658108",
+                "type": "database_id"
+            },
+            "properties": {
+                "Cover": {
+                    "files": [
+                        {
+                            "file": {
+                                "expiry_time": "2023-11-08T03:46:18.357Z",
+                                "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/dd2ec3e3-23aa-41ce-a003-cfb7dfa729b5/Hero.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20231108%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20231108T024618Z&X-Amz-Expires=3600&X-Amz-Signature=0785745f9722b20e89696414179668f133a0114981e13cf35d7c84dd6c055672&X-Amz-SignedHeaders=host&x-id=GetObject"
+                            },
+                            "name": "Hero.png",
+                            "type": "file"
+                        }
+                    ],
+                    "id": "%5EQ%40O",
+                    "type": "files"
+                },
+                "Date": {
+                    "date": null,
+                    "id": "Ni%5D%5D",
+                    "type": "date"
+                },
+                "Description": {
+                    "id": "scKi",
+                    "rich_text": [],
+                    "type": "rich_text"
+                },
+                "Name": {
+                    "id": "title",
+                    "title": [
+                        {
+                            "annotations": {
+                                "bold": false,
+                                "code": false,
+                                "color": "default",
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false
+                            },
+                            "href": null,
+                            "plain_text": "Nueva Mutua Sanitaria",
+                            "text": {
+                                "content": "Nueva Mutua Sanitaria",
+                                "link": null
+                            },
+                            "type": "text"
+                        }
+                    ],
+                    "type": "title"
+                },
+                "Slug": {
+                    "id": "Mc%7D%3A",
+                    "rich_text": [
+                        {
+                            "annotations": {
+                                "bold": false,
+                                "code": false,
+                                "color": "default",
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false
+                            },
+                            "href": null,
+                            "plain_text": "mutua-sanitaria",
+                            "text": {
+                                "content": "mutua-sanitaria",
+                                "link": null
+                            },
+                            "type": "text"
+                        }
+                    ],
+                    "type": "rich_text"
+                },
+                "Status": {
+                    "id": "abbL",
+                    "select": null,
+                    "type": "select"
+                },
+                "TitleProject": {
+                    "id": "NQRN",
+                    "rich_text": [
+                        {
+                            "annotations": {
+                                "bold": false,
+                                "code": false,
+                                "color": "default",
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false
+                            },
+                            "href": null,
+                            "plain_text": "Nueva Mutua Sanitaria",
+                            "text": {
+                                "content": "Nueva Mutua Sanitaria",
+                                "link": null
+                            },
+                            "type": "text"
+                        }
+                    ],
+                    "type": "rich_text"
+                },
+                "Type": {
+                    "id": "wMWk",
+                    "rich_text": [
+                        {
+                            "annotations": {
+                                "bold": false,
+                                "code": false,
+                                "color": "default",
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false
+                            },
+                            "href": null,
+                            "plain_text": "Website",
+                            "text": {
+                                "content": "Website",
+                                "link": null
+                            },
+                            "type": "text"
+                        }
+                    ],
+                    "type": "rich_text"
+                }
+            },
+            "public_url": null,
+            "url": "https://www.notion.so/Nueva-Mutua-Sanitaria-e05c45a6284041b7ab12fe22ec48c55b"
+        },
+        {
+            "archived": false,
+            "cover": null,
+            "created_by": {
+                "id": "cf11e740-e08b-48ca-92c8-6a192952e09d",
+                "object": "user"
+            },
+            "created_time": "2023-11-06T21:28:00.000Z",
+            "icon": null,
+            "id": "36af85ea-ed0c-4ee7-ad80-9837f7e09d2f",
+            "last_edited_by": {
+                "id": "cf11e740-e08b-48ca-92c8-6a192952e09d",
+                "object": "user"
+            },
+            "last_edited_time": "2023-11-07T20:52:00.000Z",
+            "object": "page",
+            "parent": {
+                "database_id": "2be2880f-190f-4fe2-9db9-1565a1658108",
+                "type": "database_id"
+            },
+            "properties": {
+                "Cover": {
+                    "files": [
+                        {
+                            "file": {
+                                "expiry_time": "2023-11-08T03:46:18.357Z",
+                                "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/9da76ef5-4bc0-404e-9700-92e39c0a129d/dd667945-06c3-4f3e-989b-0f50c33b7dce/923shots_so.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20231108%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20231108T024618Z&X-Amz-Expires=3600&X-Amz-Signature=d5db794e44885a1b1d4d17917551ce08e61f6ae1324059d32566bc3c8ff2522b&X-Amz-SignedHeaders=host&x-id=GetObject"
+                            },
+                            "name": "923shots_so.png",
+                            "type": "file"
+                        }
+                    ],
+                    "id": "%5EQ%40O",
+                    "type": "files"
+                },
+                "Date": {
+                    "date": null,
+                    "id": "Ni%5D%5D",
+                    "type": "date"
+                },
+                "Description": {
+                    "id": "scKi",
+                    "rich_text": [],
+                    "type": "rich_text"
+                },
+                "Name": {
+                    "id": "title",
+                    "title": [
+                        {
+                            "annotations": {
+                                "bold": false,
+                                "code": false,
+                                "color": "default",
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false
+                            },
+                            "href": null,
+                            "plain_text": "SUPERFRESH",
+                            "text": {
+                                "content": "SUPERFRESH",
+                                "link": null
+                            },
+                            "type": "text"
+                        }
+                    ],
+                    "type": "title"
+                },
+                "Slug": {
+                    "id": "Mc%7D%3A",
+                    "rich_text": [
+                        {
+                            "annotations": {
+                                "bold": false,
+                                "code": false,
+                                "color": "default",
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false
+                            },
+                            "href": null,
+                            "plain_text": "superfresh",
+                            "text": {
+                                "content": "superfresh",
+                                "link": null
+                            },
+                            "type": "text"
+                        }
+                    ],
+                    "type": "rich_text"
+                },
+                "Status": {
+                    "id": "abbL",
+                    "select": null,
+                    "type": "select"
+                },
+                "TitleProject": {
+                    "id": "NQRN",
+                    "rich_text": [
+                        {
+                            "annotations": {
+                                "bold": false,
+                                "code": false,
+                                "color": "default",
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false
+                            },
+                            "href": null,
+                            "plain_text": "SuperFresh",
+                            "text": {
+                                "content": "SuperFresh",
+                                "link": null
+                            },
+                            "type": "text"
+                        }
+                    ],
+                    "type": "rich_text"
+                },
+                "Type": {
+                    "id": "wMWk",
+                    "rich_text": [
+                        {
+                            "annotations": {
+                                "bold": false,
+                                "code": false,
+                                "color": "default",
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false
+                            },
+                            "href": null,
+                            "plain_text": "Prototype",
+                            "text": {
+                                "content": "Prototype",
+                                "link": null
+                            },
+                            "type": "text"
+                        }
+                    ],
+                    "type": "rich_text"
+                }
+            },
+            "public_url": null,
+            "url": "https://www.notion.so/SUPERFRESH-36af85eaed0c4ee7ad809837f7e09d2f"
+        },
+        {
+            "archived": false,
+            "cover": null,
+            "created_by": {
+                "id": "cf11e740-e08b-48ca-92c8-6a192952e09d",
+                "object": "user"
+            },
+            "created_time": "2023-11-06T21:28:00.000Z",
+            "icon": null,
+            "id": "c74def3a-bc24-4f1e-bf36-4c1e44094990",
+            "last_edited_by": {
+                "id": "cf11e740-e08b-48ca-92c8-6a192952e09d",
+                "object": "user"
+            },
+            "last_edited_time": "2023-11-07T20:53:00.000Z",
+            "object": "page",
+            "parent": {
+                "database_id": "2be2880f-190f-4fe2-9db9-1565a1658108",
+                "type": "database_id"
+            },
+            "properties": {
+                "Cover": {
+                    "files": [
+                        {
+                            "file": {
+                                "expiry_time": "2023-11-08T03:46:18.358Z",
+                                "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/94966ab0-58c2-4f8e-ba89-debc154bc048/CoverPage-Dashboard.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20231108%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20231108T024618Z&X-Amz-Expires=3600&X-Amz-Signature=b98546b75ab76912a56701abad99def04078d6ea499defd8885f2c5a9a869c94&X-Amz-SignedHeaders=host&x-id=GetObject"
+                            },
+                            "name": "CoverPage-Dashboard.png",
+                            "type": "file"
+                        }
+                    ],
+                    "id": "%5EQ%40O",
+                    "type": "files"
+                },
+                "Date": {
+                    "date": null,
+                    "id": "Ni%5D%5D",
+                    "type": "date"
+                },
+                "Description": {
+                    "id": "scKi",
+                    "rich_text": [],
+                    "type": "rich_text"
+                },
+                "Name": {
+                    "id": "title",
+                    "title": [
+                        {
+                            "annotations": {
+                                "bold": true,
+                                "code": false,
+                                "color": "default",
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false
+                            },
+                            "href": null,
+                            "plain_text": "Dashboard Software Contable",
+                            "text": {
+                                "content": "Dashboard Software Contable",
+                                "link": null
+                            },
+                            "type": "text"
+                        }
+                    ],
+                    "type": "title"
+                },
+                "Slug": {
+                    "id": "Mc%7D%3A",
+                    "rich_text": [
+                        {
+                            "annotations": {
+                                "bold": false,
+                                "code": false,
+                                "color": "default",
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false
+                            },
+                            "href": null,
+                            "plain_text": "dashboard-contabilidad",
+                            "text": {
+                                "content": "dashboard-contabilidad",
+                                "link": null
+                            },
+                            "type": "text"
+                        }
+                    ],
+                    "type": "rich_text"
+                },
+                "Status": {
+                    "id": "abbL",
+                    "select": null,
+                    "type": "select"
+                },
+                "TitleProject": {
+                    "id": "NQRN",
+                    "rich_text": [
+                        {
+                            "annotations": {
+                                "bold": false,
+                                "code": false,
+                                "color": "default",
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false
+                            },
+                            "href": null,
+                            "plain_text": "Dashboard Software contable",
+                            "text": {
+                                "content": "Dashboard Software contable",
+                                "link": null
+                            },
+                            "type": "text"
+                        }
+                    ],
+                    "type": "rich_text"
+                },
+                "Type": {
+                    "id": "wMWk",
+                    "rich_text": [
+                        {
+                            "annotations": {
+                                "bold": false,
+                                "code": false,
+                                "color": "default",
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false
+                            },
+                            "href": null,
+                            "plain_text": "Dashboard",
+                            "text": {
+                                "content": "Dashboard",
+                                "link": null
+                            },
+                            "type": "text"
+                        }
+                    ],
+                    "type": "rich_text"
+                }
+            },
+            "public_url": null,
+            "url": "https://www.notion.so/Dashboard-Software-Contable-c74def3abc244f1ebf364c1e44094990"
+        }
+    ],
+    "type": "page_or_database"
+}
