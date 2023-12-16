@@ -1,0 +1,415 @@
+{
+    "object": "list",
+    "results": [
+        {
+            "object": "block",
+            "id": "1c3bde13-8d12-4fce-87fd-a6c14d982b61",
+            "parent": {
+                "type": "page_id",
+                "page_id": "5c933728-5f40-4e08-b047-fbc6881778c3"
+            },
+            "created_time": "2023-11-06T21:28:00.000Z",
+            "last_edited_time": "2023-11-06T21:28:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "cf11e740-e08b-48ca-92c8-6a192952e09d"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "cf11e740-e08b-48ca-92c8-6a192952e09d"
+            },
+            "has_children": false,
+            "archived": false,
+            "type": "paragraph",
+            "paragraph": {
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Proyecto de diseño de experiencia y interface de usuario en Google.",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "gray"
+                        },
+                        "plain_text": "Proyecto de diseño de experiencia y interface de usuario en Google.",
+                        "href": null
+                    }
+                ],
+                "color": "default"
+            }
+        },
+        {
+            "object": "block",
+            "id": "aaa91c3d-5da9-4de8-977b-bfab49769ca5",
+            "parent": {
+                "type": "page_id",
+                "page_id": "5c933728-5f40-4e08-b047-fbc6881778c3"
+            },
+            "created_time": "2023-11-06T21:28:00.000Z",
+            "last_edited_time": "2023-11-06T21:28:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "cf11e740-e08b-48ca-92c8-6a192952e09d"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "cf11e740-e08b-48ca-92c8-6a192952e09d"
+            },
+            "has_children": false,
+            "archived": false,
+            "type": "paragraph",
+            "paragraph": {
+                "rich_text": [],
+                "color": "default"
+            }
+        },
+        {
+            "object": "block",
+            "id": "7869d43c-5ac8-48e7-9737-754ffba48c5f",
+            "parent": {
+                "type": "page_id",
+                "page_id": "5c933728-5f40-4e08-b047-fbc6881778c3"
+            },
+            "created_time": "2023-11-06T21:28:00.000Z",
+            "last_edited_time": "2023-11-06T21:28:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "cf11e740-e08b-48ca-92c8-6a192952e09d"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "cf11e740-e08b-48ca-92c8-6a192952e09d"
+            },
+            "has_children": false,
+            "archived": false,
+            "type": "image",
+            "image": {
+                "caption": [],
+                "type": "file",
+                "file": {
+                    "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/9da76ef5-4bc0-404e-9700-92e39c0a129d/b155e2eb-1103-4217-9b93-6847b3bffe7a/Home.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20231126%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20231126T215027Z&X-Amz-Expires=3600&X-Amz-Signature=5f5ad9656b46996017449e9fd73192788f340c286e12e4f92e338a6507c849ff&X-Amz-SignedHeaders=host&x-id=GetObject",
+                    "expiry_time": "2023-11-26T22:50:27.784Z"
+                }
+            }
+        },
+        {
+            "object": "block",
+            "id": "4317fbca-9032-428c-bd23-d3e3d3d81b36",
+            "parent": {
+                "type": "page_id",
+                "page_id": "5c933728-5f40-4e08-b047-fbc6881778c3"
+            },
+            "created_time": "2023-11-06T21:28:00.000Z",
+            "last_edited_time": "2023-11-06T21:28:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "cf11e740-e08b-48ca-92c8-6a192952e09d"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "cf11e740-e08b-48ca-92c8-6a192952e09d"
+            },
+            "has_children": false,
+            "archived": false,
+            "type": "image",
+            "image": {
+                "caption": [],
+                "type": "file",
+                "file": {
+                    "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/9da76ef5-4bc0-404e-9700-92e39c0a129d/89807495-5d53-4aec-b792-eeebf9fbff89/Overview.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20231126%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20231126T215027Z&X-Amz-Expires=3600&X-Amz-Signature=fccb7a6788d0247206f1dce991d1cbfd7f1b4a25c8291523551cdcdf7ab60246&X-Amz-SignedHeaders=host&x-id=GetObject",
+                    "expiry_time": "2023-11-26T22:50:27.795Z"
+                }
+            }
+        },
+        {
+            "object": "block",
+            "id": "00ddbcd1-41cc-474e-907b-19ae62fb85a8",
+            "parent": {
+                "type": "page_id",
+                "page_id": "5c933728-5f40-4e08-b047-fbc6881778c3"
+            },
+            "created_time": "2023-11-06T21:28:00.000Z",
+            "last_edited_time": "2023-11-06T21:28:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "cf11e740-e08b-48ca-92c8-6a192952e09d"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "cf11e740-e08b-48ca-92c8-6a192952e09d"
+            },
+            "has_children": false,
+            "archived": false,
+            "type": "image",
+            "image": {
+                "caption": [],
+                "type": "file",
+                "file": {
+                    "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/9da76ef5-4bc0-404e-9700-92e39c0a129d/f376f24c-cb91-4bc7-b80e-afb6181dbfaf/Problem.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20231126%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20231126T215027Z&X-Amz-Expires=3600&X-Amz-Signature=fa45e126d088e25bdb3eb0ff58a3ecaa8bec3713ec9f97c2a6e9de01186e0dd5&X-Amz-SignedHeaders=host&x-id=GetObject",
+                    "expiry_time": "2023-11-26T22:50:27.795Z"
+                }
+            }
+        },
+        {
+            "object": "block",
+            "id": "702d76eb-cae3-4585-bac6-dce19542ae56",
+            "parent": {
+                "type": "page_id",
+                "page_id": "5c933728-5f40-4e08-b047-fbc6881778c3"
+            },
+            "created_time": "2023-11-06T21:28:00.000Z",
+            "last_edited_time": "2023-11-06T21:28:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "cf11e740-e08b-48ca-92c8-6a192952e09d"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "cf11e740-e08b-48ca-92c8-6a192952e09d"
+            },
+            "has_children": false,
+            "archived": false,
+            "type": "image",
+            "image": {
+                "caption": [],
+                "type": "file",
+                "file": {
+                    "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/9da76ef5-4bc0-404e-9700-92e39c0a129d/f50531cc-0105-4c22-839b-56cb2cc64587/User_Journey_Map.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20231126%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20231126T215027Z&X-Amz-Expires=3600&X-Amz-Signature=358cf5c31c86ea85f36fe5e191fabc2fbd9a5d3ef507c845adf969c909916c85&X-Amz-SignedHeaders=host&x-id=GetObject",
+                    "expiry_time": "2023-11-26T22:50:27.790Z"
+                }
+            }
+        },
+        {
+            "object": "block",
+            "id": "c17550c1-2a92-4e40-8ec6-48ceb5de3601",
+            "parent": {
+                "type": "page_id",
+                "page_id": "5c933728-5f40-4e08-b047-fbc6881778c3"
+            },
+            "created_time": "2023-11-06T21:28:00.000Z",
+            "last_edited_time": "2023-11-06T21:28:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "cf11e740-e08b-48ca-92c8-6a192952e09d"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "cf11e740-e08b-48ca-92c8-6a192952e09d"
+            },
+            "has_children": false,
+            "archived": false,
+            "type": "image",
+            "image": {
+                "caption": [],
+                "type": "file",
+                "file": {
+                    "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/9da76ef5-4bc0-404e-9700-92e39c0a129d/0e9d1523-e8c4-446e-9f05-621870fd0ba2/Persona.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20231126%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20231126T215027Z&X-Amz-Expires=3600&X-Amz-Signature=a9da55a0ab8e92a3978466ef42f3409c219aeeb9d99c7dc6fabc2d9879886f94&X-Amz-SignedHeaders=host&x-id=GetObject",
+                    "expiry_time": "2023-11-26T22:50:27.793Z"
+                }
+            }
+        },
+        {
+            "object": "block",
+            "id": "c7f2357b-49c4-4434-8df1-8da5891727ae",
+            "parent": {
+                "type": "page_id",
+                "page_id": "5c933728-5f40-4e08-b047-fbc6881778c3"
+            },
+            "created_time": "2023-11-06T21:28:00.000Z",
+            "last_edited_time": "2023-11-06T21:28:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "cf11e740-e08b-48ca-92c8-6a192952e09d"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "cf11e740-e08b-48ca-92c8-6a192952e09d"
+            },
+            "has_children": false,
+            "archived": false,
+            "type": "image",
+            "image": {
+                "caption": [],
+                "type": "file",
+                "file": {
+                    "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/9da76ef5-4bc0-404e-9700-92e39c0a129d/ad5fca60-f9c7-4d2c-92f5-843035a2569d/User_Flow.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20231126%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20231126T215027Z&X-Amz-Expires=3600&X-Amz-Signature=6842962222404576e12e0e6f11c112387a363c596b48133799c2eb60a80d55e5&X-Amz-SignedHeaders=host&x-id=GetObject",
+                    "expiry_time": "2023-11-26T22:50:27.790Z"
+                }
+            }
+        },
+        {
+            "object": "block",
+            "id": "852603d6-2d4a-4569-83cf-47095eba632e",
+            "parent": {
+                "type": "page_id",
+                "page_id": "5c933728-5f40-4e08-b047-fbc6881778c3"
+            },
+            "created_time": "2023-11-06T21:28:00.000Z",
+            "last_edited_time": "2023-11-06T21:28:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "cf11e740-e08b-48ca-92c8-6a192952e09d"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "cf11e740-e08b-48ca-92c8-6a192952e09d"
+            },
+            "has_children": false,
+            "archived": false,
+            "type": "image",
+            "image": {
+                "caption": [],
+                "type": "file",
+                "file": {
+                    "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/9da76ef5-4bc0-404e-9700-92e39c0a129d/a5f89c08-3b6e-42d8-bb36-6ecccd9fb409/Wireframe_Low_Fidelity.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20231126%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20231126T215027Z&X-Amz-Expires=3600&X-Amz-Signature=e0e73fa7aca4595a6d37360dff8d2ed42ca1adb40ad08fabb523b13613eee5c5&X-Amz-SignedHeaders=host&x-id=GetObject",
+                    "expiry_time": "2023-11-26T22:50:27.793Z"
+                }
+            }
+        },
+        {
+            "object": "block",
+            "id": "5a6607f3-39c4-4e75-b549-5f24d8fe99ff",
+            "parent": {
+                "type": "page_id",
+                "page_id": "5c933728-5f40-4e08-b047-fbc6881778c3"
+            },
+            "created_time": "2023-11-06T21:28:00.000Z",
+            "last_edited_time": "2023-11-06T21:28:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "cf11e740-e08b-48ca-92c8-6a192952e09d"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "cf11e740-e08b-48ca-92c8-6a192952e09d"
+            },
+            "has_children": false,
+            "archived": false,
+            "type": "image",
+            "image": {
+                "caption": [],
+                "type": "file",
+                "file": {
+                    "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/9da76ef5-4bc0-404e-9700-92e39c0a129d/84ab7074-f66f-427f-a2bc-dd0378fe5d90/Typegrafy__Color_Palette.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20231126%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20231126T215027Z&X-Amz-Expires=3600&X-Amz-Signature=6ed018f495ee7f984fd2aba8d92632e9279a5a1d9de045b4eb9bf4d00f6709d9&X-Amz-SignedHeaders=host&x-id=GetObject",
+                    "expiry_time": "2023-11-26T22:50:27.788Z"
+                }
+            }
+        },
+        {
+            "object": "block",
+            "id": "87b99ec9-c328-4f9c-bdc3-110de2db6111",
+            "parent": {
+                "type": "page_id",
+                "page_id": "5c933728-5f40-4e08-b047-fbc6881778c3"
+            },
+            "created_time": "2023-11-06T21:28:00.000Z",
+            "last_edited_time": "2023-11-06T21:28:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "cf11e740-e08b-48ca-92c8-6a192952e09d"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "cf11e740-e08b-48ca-92c8-6a192952e09d"
+            },
+            "has_children": false,
+            "archived": false,
+            "type": "image",
+            "image": {
+                "caption": [],
+                "type": "file",
+                "file": {
+                    "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/9da76ef5-4bc0-404e-9700-92e39c0a129d/358290d5-548f-4fd4-b0c7-e8bc07f32c82/Wireframe_High_Fidelity.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20231126%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20231126T215027Z&X-Amz-Expires=3600&X-Amz-Signature=9adf982c93868a77ef40ab8dfa69e5c92bad7f02375486cd21edf7c005adf07e&X-Amz-SignedHeaders=host&x-id=GetObject",
+                    "expiry_time": "2023-11-26T22:50:27.784Z"
+                }
+            }
+        },
+        {
+            "object": "block",
+            "id": "720dbce1-d79a-4f2a-a02d-11bc67db5cd4",
+            "parent": {
+                "type": "page_id",
+                "page_id": "5c933728-5f40-4e08-b047-fbc6881778c3"
+            },
+            "created_time": "2023-11-06T21:28:00.000Z",
+            "last_edited_time": "2023-11-06T21:28:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "cf11e740-e08b-48ca-92c8-6a192952e09d"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "cf11e740-e08b-48ca-92c8-6a192952e09d"
+            },
+            "has_children": false,
+            "archived": false,
+            "type": "image",
+            "image": {
+                "caption": [],
+                "type": "file",
+                "file": {
+                    "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/9da76ef5-4bc0-404e-9700-92e39c0a129d/ebd7f83b-3909-4d6a-904b-7d57685bbee1/Animationapp44444.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20231126%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20231126T215027Z&X-Amz-Expires=3600&X-Amz-Signature=cb717adbe9b3588d9ca8be72c5c0377766eb32f99596076c58764a7ceb84244c&X-Amz-SignedHeaders=host&x-id=GetObject",
+                    "expiry_time": "2023-11-26T22:50:27.796Z"
+                }
+            }
+        },
+        {
+            "object": "block",
+            "id": "f2af3f78-8fd3-4132-bb8a-583c50f2dd5d",
+            "parent": {
+                "type": "page_id",
+                "page_id": "5c933728-5f40-4e08-b047-fbc6881778c3"
+            },
+            "created_time": "2023-11-06T21:28:00.000Z",
+            "last_edited_time": "2023-11-06T21:28:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "cf11e740-e08b-48ca-92c8-6a192952e09d"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "cf11e740-e08b-48ca-92c8-6a192952e09d"
+            },
+            "has_children": false,
+            "archived": false,
+            "type": "paragraph",
+            "paragraph": {
+                "rich_text": [],
+                "color": "default"
+            }
+        },
+        {
+            "object": "block",
+            "id": "9fa560fe-aeb9-47a2-954f-b37bd49e6666",
+            "parent": {
+                "type": "page_id",
+                "page_id": "5c933728-5f40-4e08-b047-fbc6881778c3"
+            },
+            "created_time": "2023-11-06T21:28:00.000Z",
+            "last_edited_time": "2023-11-06T21:28:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "cf11e740-e08b-48ca-92c8-6a192952e09d"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "cf11e740-e08b-48ca-92c8-6a192952e09d"
+            },
+            "has_children": false,
+            "archived": false,
+            "type": "divider",
+            "divider": {}
+        }
+    ],
+    "next_cursor": null,
+    "has_more": false,
+    "type": "block",
+    "block": {},
+    "request_id": "b217f7cb-87e7-48fc-954b-b6e840371072"
+}

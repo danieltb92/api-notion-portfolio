@@ -7,10 +7,11 @@ const notion = new Client({auth: process.env.NOTION_TOKEN,})
 const database_id = process.env.NOTION_DATABASE_ID;
 
 
-// <----------------OPCION #1 --------------------->
+// <---------------- PROJECTS --------------------->
 
 
 module.exports = async function getProjects(){
+// const getProjects = async () => {
 
     const payload = {
       path: `databases/${database_id}/query`,
@@ -18,21 +19,24 @@ module.exports = async function getProjects(){
     }
   
     const { results } = await notion.request(payload)
-    console.log(results);
+    // console.log(results);
   
     const projects = results.map((page) => {
       return {
-        id: page.properties.Slug.rich_text[0].plain_text,
-        name: page.properties.Name.title[0].plain_text,
-        cover: page.properties.Cover.files[0].file.url,
-        title: page.properties.TitleProject.rich_text[0].plain_text,
-        type: page.properties.Type.rich_text[0].plain_text,
+        id: page?.properties?.Slug?.rich_text?.[0]?.plain_text || null,
+        url: page?.public_url || null,
+        idPage: page?.id || null,
+        name: page?.properties?.Name?.title?.[0]?.plain_text || null,
+        // cover: page.properties.Cover.files[0].file.url,
+        title: page?.properties?.TitleProject?.rich_text?.[0]?.plain_text || null,
+        type: page?.properties?.Type?.rich_text?.[0]?.plain_text || null,
         // date: page.properties.Date.date.start,
         // tags: page.properties.Tags.rich_text[0].text.content,
         // description: page.properties.Description.rich_text[0].text.content,
+        status: page?.properties?.Status?.select?.name || null,
       }
     })
-  
+    
     return projects
 }
 
@@ -42,61 +46,96 @@ module.exports = async function getProjects(){
 // })();
 
 
+// <---------------- PAGES --------------------->
 
 
-// <----------------OPCION #2 MIDUDEV--------------------->
+//// Obtiene los id de las páginas de Notion ////
+// const getProjectIds = async () => {
 
-// module.exports const getProjects = async () =>  {
-    
-//     const query = {database_id} 
+//   const projects = await getProjects();
 
-//     if(filterBy){
-//         query.filter = {
-//             property: 'Slug',
-//             rich_text: {
-//                 equals: filterBy
-//             }
-//         }
-//     }
+//   const ids = projects.map((project) => {
+//     // Accede a la propiedad idPage
+//     return project.idPage;
+//   });
+
+//   return ids;
+// };
+
+// (async () => {
+//   const ids = await getProjectIds();
+//   console.log(ids);
+// })();
+
+
+// module.exports = async function getPages(){
+// const getPages = async () => {
   
-//     const { results } = await notion.databases.query(query);
-//     console.log(results);
-//     return results.map(page => {
-//         const {properties} = page;  
-//         const {Slug, Title} = properties;
-        
-//         return {
-//             id: Slug.rich_text[0].plain_text,
-//             title: Title.title[0].plain_text
-//         }
-//     })
+//   const pageIds = await getProjectIds();
+//   // const pageId = '5c9337285f404e08b047fbc6881778c3' ;  //'b740ffc8ac2f42e9ad6686f97fd1c76a'
+
+// ////////////////////////////
+
+//   const pages = await Promise.all(pageIds.map(async (pageId) => {
     
+//     const payload = {
+//       path: `blocks/${pageId}/children`,
+//       method: 'GET',
+//     };
+
+//     const { results } = await notion.request(payload);
+    
+
+//     return results.map((page) => ({
+//         id: pageId,
+//         typeBlock: page.type,
+//         //content: page,
+        
+//         // content: (page.type || '')?.rich_text?.[0] || null,
+//         contentP: page.paragraph?.rich_text?.[0] || null,
+//         contentI: page.image?.file?.url || null,
+//         // page_size: 50,
+//     }));
+//   }));
+
+//   return pages.flat();
 // };
 
 
+// /////////////////////////////
 
+// //   const payload = {
+// //       path: `blocks/${pageId}/children`,
+// //       method: 'GET',
+// //   }
 
-// <----------------OPCION #3 --------------------->
+// //   const { results } = await notion.request(payload)
+// //   // console.log(results);
+
+// //     // const pageId = '5c9337285f404e08b047fbc6881778c3' ;  //'b740ffc8ac2f42e9ad6686f97fd1c76a'
+// //   const response = await notion.blocks.children.list({ 
+// //     block_id: pageId,
+// //     page_size: 100, });
+// //     // console.log(response);
+// //         // fs.writeFileSync('page.json', JSON.stringify(response));
+// //         // console.log(response);
+
+// //   const pages = response.results.map((page) => {
+// //       return {
+// //           content: page,
+// //       }
+// //     })
+// //     return pages;
+// // };
 
 // (async () => {
-//   const databaseId = database_id;
-//   const response = await notion.databases.query({
-//     database_id: databaseId,
-//   });
-//   console.log(response);
+//     const nPages = await getPages();
+//     console.log(nPages);
 // })();
 
 
 
-// <---------------- OPCION #4  NOTION --------------------->
-
-// (async () => {
-//   const response = await notion.databases.retrieve({database_id});
-//   console.log(response);
-// })();
-
-
-// <---------------- OPCION #5  CREATE JSON FILE --------------------->
+// <---------------- CREATE JSON FILE --------------------->
 
 // const fs = require('fs');
 // async function getNotionData() {
