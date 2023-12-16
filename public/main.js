@@ -15,8 +15,6 @@ const getProjectFromBackend = async () => {
 const addProjectToDom = async () => {
   const projects = await getProjectFromBackend()
   console.log(projects)
-  const statusProject = projects.filter(project => project.status === 'Published')
-
 //   if (!loading) {
 //     loadingEl.innerHTML = ''
 //   }
