@@ -3,15 +3,16 @@ const { Client } = require("@notionhq/client")
 
 // Initializing a client
 const notion = new Client({auth: process.env.NOTION_TOKEN,})
+console.log(notion);
 // Notion Database ID
 const database_id = process.env.NOTION_DATABASE_ID;
-
+console.log(database_id);
 
 // <---------------- PROJECTS --------------------->
 
 
-module.exports = async function getProjects(){
-// const getProjects = async () => {
+// module.exports = async function getProjects(){
+const getProjects = async () => {
 
     const payload = {
       path: `databases/${database_id}/query`,
@@ -40,10 +41,10 @@ module.exports = async function getProjects(){
     return projects
 }
 
-// (async () => {
-//     const nProject = await getProjects()
-//     console.log(nProject);
-// })();
+(async () => {
+    const nProject = await getProjects()
+    console.log(nProject);
+})();
 
 
 // <---------------- PAGES --------------------->

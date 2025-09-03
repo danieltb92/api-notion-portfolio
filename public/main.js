@@ -2,10 +2,16 @@ const projectsEl = document.querySelector('.grid-projects')
 const pagesEl = document.querySelector('.content-page')
 // const loadingEl = document.querySelector('#loading')
 // let loading = false
+const config = require('./config.js')
+const dotenv = require('dotenv').config()
+
+const url = process.env.URL
+console.log(url)
 
 const getProjectFromBackend = async () => {
 //   loading = true
-  const res = await fetch('http://localhost:5500/projects')
+  // const url = `http://${config.HOST}:${config.PORT}/projects`
+  const res = await fetch(url)
   const data = await res.json()
 //   loading = false
   return data
